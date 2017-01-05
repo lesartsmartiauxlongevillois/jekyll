@@ -1,0 +1,29 @@
+sudo gem install jekyll-paginate
+sudo gem install jekyll-last-modified-at
+sudo gem install jekyll-sitemap
+sudo gem install jekyll-redirect-from
+
+Plugin Jekyll Slideshow ( https://github.com/matthewowen/jekyll-slideshow )
+
+Installation de nokogiri (traitement HTML et XML)
+
+> sudo gem install nokogiri
+
+Installation de rmagick (traitement image)
+
+	1) Debian
+				
+> sudo apt-get install imagemagick
+> sudo apt-get install libmagickwand-dev
+> sudo gem install rmagick
+
+	2) Windows
+
+> set CPATH=%IMAGEMAGICK_HOME%\include
+> set LIBRARY_PATH=%IMAGEMAGICK_HOME%\lib
+> gem install rmagick
+
+Mise à jour de toutes les librairies Ruby
+
+> gem update
+> gem cleanup

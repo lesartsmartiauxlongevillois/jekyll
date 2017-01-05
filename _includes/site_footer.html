@@ -1,0 +1,16 @@
+{% if site.assets %}
+  {% if site.assets.enabled %}
+    {% if site.assets.enabled == true %}
+      {% include site_footer_with_assets.html %}
+    {% else %}
+	<!-- site.assets.enabled not true -->
+      {% include site_footer_without_assets.html %}
+    {% endif %}
+  {% else %}
+  <!-- site.assets.enabled not assigned -->
+    {% include site_footer_without_assets.html %}
+  {% endif %}
+{% else %}
+	<!-- site.assets not assigned -->
+  {% include site_footer_without_assets.html %}
+{% endif %}

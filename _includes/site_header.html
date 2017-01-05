@@ -1,0 +1,13 @@
+{% if site.assets %}
+  {% if site.assets.enabled %}
+    {% if site.assets.enabled == true %}
+      {% include site_header_with_assets.html %}
+    {% else %}
+      {% include site_header_without_assets.html %}
+    {% endif %}
+  {% else %}
+    {% include site_header_without_assets.html %}
+  {% endif %}
+{% else %}
+  {% include site_header_without_assets.html %}
+{% endif %}

@@ -1,0 +1,10 @@
+{% if page.lazyload %}
+{% if page.lazyload.enabled %}
+{% if page.lazyload.enabled == 1 %}
+<script src="/assets/lazyload/jquery.lazyload.min.js"></script>
+<script>
+$("img.thumbnail").lazyload();
+</script>
+{% endif %}
+{% endif %}
+{% endif %}

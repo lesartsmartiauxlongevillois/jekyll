@@ -1,0 +1,3 @@
+# http://www.aikido-longeville-les-metz.fr/
+User-agent: *
+Sitemap: http://www.aikido-longeville-les-metz.fr/sitemap.xml

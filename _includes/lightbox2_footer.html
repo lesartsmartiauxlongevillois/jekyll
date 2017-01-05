@@ -1,0 +1,15 @@
+{% if page.lightbox2 %}
+{% if page.lightbox2.enabled %}
+{% if page.lightbox2.enabled == 1 %}
+<script src="/assets/lightbox2/js/lightbox-plus-jquery.min.js"></script>
+<script>
+lightbox.option({
+	'alwaysShowNavOnTouchDevices': true,
+	'albumLabel': 'image %1 sur %2',
+	'resizeDuration': 250,
+	'wrapAround': true
+})
+</script>
+{% endif %}
+{% endif %}
+{% endif %}

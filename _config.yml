@@ -1,0 +1,62 @@
+# Site settings
+# http://jekyllrb.com/docs/configuration/#default-configuration
+title: Les Arts Martiaux Longevillois
+subTitle: Club d'Aïkido de Longeville-Lès-Metz
+fullTitle: Club d'Aïkido de Longeville-Lès-Metz - Les Arts Martiaux Longevillois
+timezone: Europe/Paris
+imageDirectory: img
+pdfDirectory: pdf
+# header-img: img/2015_11_12_remise_diplome_aikido_sandan_alfredo_ligori_greyscale.jpg
+header-img: img/2016-01-27-cours_enfants_adultes_galette_rois_sepia.jpg
+email: contact@aikido-longeville-les-metz.fr
+description: "Les Arts Martiaux Longevillois : club d'Aïkido de Longeville-Lès-Metz. Tarifs: 40-70 euros. Professeurs: LIGORI (3e dan), CHAPERT (2e dan), SAIGNEMORTE (1er dan)."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.aikido-longeville-les-metz.fr" # the base hostname & protocol for your site
+facebook_username: aikido.longeville.metz
+googleplus_username: Aikido-longeville-les-metzFr
+youtube_channel: UCWmnyiZySOpBl58WVk8rZXA
+
+# Build settings
+# http://jekyllrb.com/docs/configuration/
+# gems: [jekyll-paginate]
+gems:
+#  - uglifier
+#  - jekyll-assets
+  - jekyll-last-modified-at
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+markdown: kramdown
+permalink: pretty
+paginate: 4
+exclude: ["less","node_modules","Gruntfile.js","package.json","scripts","docs"]
+static_files: ["googleec63333081f1eede.html", "googlee1c2e5b07c7b627d.html", "jekyll_mapping.html"]
+
+# jekyll-assets
+assets:
+  # Indique si jekyll-assets est activé 
+  enabled: false
+  # cache: false
+  digest: true  
+  prefix: "/assets"  
+  compress:
+    css: true
+    js: true
+  sources:
+    - _assets/js 
+    - _assets/css	
+
+# Jekyll Mapping
+# http://matthewowen.github.io/jekyll-mapping/
+gmaps:
+  api_key: AIzaSyC4O4jc8zpnnyBBN_vTQ-L71jx3gXVtO7w
+
+# Plugin ThumbnailsGenerator
+thumbnails:
+  path: "assets/thumbnails"
+  width: 150
+  height: 100
+
+# Plugin lightbox2Filter
+lightbox2:
+  enabled: true
