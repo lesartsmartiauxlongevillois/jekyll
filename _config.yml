@@ -19,7 +19,7 @@ youtube_channel: UCWmnyiZySOpBl58WVk8rZXA
 # Build settings
 # http://jekyllrb.com/docs/configuration/
 # gems: [jekyll-paginate]
-gems:
+plugins:
 #  - uglifier
 #  - jekyll-assets
   - jekyll-last-modified-at
