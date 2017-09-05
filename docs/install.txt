@@ -1,3 +1,9 @@
+Installation de Ruby
+
+sudo apt-get install ruby ruby-dev
+
+Installation de Jekyll via le gestionnaire de dépendances de Ruby
+
 sudo gem install jekyll-paginate
 sudo gem install jekyll-last-modified-at
 sudo gem install jekyll-sitemap
