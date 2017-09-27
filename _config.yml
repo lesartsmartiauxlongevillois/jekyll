@@ -22,14 +22,14 @@ youtube_channel: UCWmnyiZySOpBl58WVk8rZXA
 plugins:
 #  - uglifier
 #  - jekyll-assets
-  - jekyll-last-modified-at
-  - jekyll-paginate
+#  - jekyll-last-modified-at
   - jekyll-sitemap
+  - jekyll-paginate
   - jekyll-redirect-from
 markdown: kramdown
 permalink: pretty
 paginate: 4
-exclude: ["less","node_modules","Gruntfile.js","package.json","scripts","docs"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","scripts","docs","Gemfile","Gemfile.lock"]
 static_files: ["googleec63333081f1eede.html", "googlee1c2e5b07c7b627d.html", "jekyll_mapping.html"]
 
 # jekyll-assets
