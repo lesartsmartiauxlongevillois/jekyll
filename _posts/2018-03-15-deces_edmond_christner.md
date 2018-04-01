@@ -10,6 +10,6 @@ C'était notre professeur d'Aïkido jusqu'à ses 90 ans.
 
 Il a fondé notre club, Les Arts Martiaux Longevillois (le premier en Moselle), avec {% abbreviation Gilbert %}.
 
-![Edmond CHRISTNER, professeur d'Aïkido des Arts Martiaux Longevillois]({{ site.baseurl }}/{{ site.imageDirectory }}/2018-01-11-deces_edmond_christner.jpg)
+![Edmond CHRISTNER, professeur d'Aïkido des Arts Martiaux Longevillois]({{ site.baseurl }}/{{ site.imageDirectory }}/2018-03-15-deces_edmond_christner.jpg)
 
 Nous en sommes tous bien attristés.
